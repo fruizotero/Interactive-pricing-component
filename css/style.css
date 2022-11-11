@@ -233,7 +233,7 @@ video {
     background-size: 50% 35%;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    cursor: ew-resize;
+    cursor: grabbing;
     box-shadow: 0rem 0.8rem 1.5rem 0rem #10d5c280;
     transition: background .3s ease-in-out;
 }
