@@ -82,4 +82,6 @@ d.addEventListener("click", (e) => {
     }
 })
 
-
+d.addEventListener("DOMContentLoaded", (e) => {
+    $sliderRange.value = "50";
+})
