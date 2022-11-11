@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+
+</head>
+
+<body>
+  <main class="main">
+    <section class="section">
+      <div class="section__text">
+        <h1 class="section__title">
+          Simple, traffic-based pricing
+        </h1>
+        <p class="section__paragraph"> Sign-up for our 30-day trial. 
+          No credit card required.
+        </p>
+      </div>
+      <div class="slider">
+        <p class="slider__views">
+          100k Pageviews
+        </p>
+        <input type="range" name="slider" min="0" max="100" step="25" value="50" class="slider__range">
+        <p class="slider__amount">
+          <span class="price">
+            $16.00
+          </span>
+          <span class="period">
+            / month
+          </span>
+        </p>
+        <div class="slider__option">
+          <p class="slider__text">
+            Monthly Billing
+          </p>
+          <div class="slider__toggle">
+            <input type="checkbox" class="slider__checkbox">
+            <div class="slider__selector"></div>
+          </div>
+          <p class="slider__text">
+            Yearly Billing
+            <span class="slider__discount slider__text--color">
+              25%
+              <span class="slider__text--discount">
+                discount
+              </span>
+            </span>
+          </p>
+        </div>
+      </div>
+      <div class="features">
+        <ul class="features__list">
+          <li>Unlimited websites</li>
+          <li>100% data ownership</li>
+          <li>Email reports</li>
+        </ul>
+        <button class="button">
+          Start my trial
+        </button>
+      </div>
+    </section>
+  </main>
+<script src="js/main.js"></script>
+</body>
+
+</html>
